@@ -51,7 +51,7 @@ public class GradingStudents
                 int result = grade;
                 if (grade >= 38)
                 {
-                    if ((5 - (grade % 5) + grade) - grade < 3)
+                    if (5 - grade % 5 + grade - grade < 3)
                         result = 5 - (grade % 5) + grade;
                 }
                 results.Add(result);

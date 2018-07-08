@@ -42,11 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms - HackerRank.com\Implementation\Easy\BreakingTheRecords.cs" />
     <Compile Include="Algorithms - HackerRank.com\Implementation\Easy\GradingStudents.cs" />
     <Compile Include="Algorithms - HackerRank.com\Implementation\Easy\Kangaroo.cs" />
+    <Compile Include="Algorithms - HackerRank.com\Implementation\Easy\MigratoryBirds.cs" />
+    <Compile Include="Algorithms - HackerRank.com\Implementation\Medium\Encryption.cs" />
+    <Compile Include="Algorithms - HackerRank.com\Strings\Easy\CamelCase.cs" />
+    <Compile Include="Algorithms - HackerRank.com\Strings\Easy\StrongPassword.cs" />
     <Compile Include="Algorithms - HackerRank.com\WarmUp\Easy\AVeryBigSum.cs" />
     <Compile Include="Algorithms - HackerRank.com\WarmUp\Easy\BirthdayCakeCandles.cs" />
     <Compile Include="Algorithms - HackerRank.com\WarmUp\Easy\CompareTheTriples.cs" />
+    <Compile Include="Algorithms - HackerRank.com\WarmUp\Easy\DiagonalDifference.cs" />
     <Compile Include="Algorithms - HackerRank.com\WarmUp\Easy\MiniMaxSum.cs" />
     <Compile Include="Algorithms - HackerRank.com\WarmUp\Easy\PlusMinus.cs" />
     <Compile Include="Algorithms - HackerRank.com\WarmUp\Easy\SimpleArraySum.cs" />
@@ -54,9 +60,11 @@
     <Compile Include="Algorithms - HackerRank.com\WarmUp\Easy\TimeConversion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomChallengs\DecimalToFractions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

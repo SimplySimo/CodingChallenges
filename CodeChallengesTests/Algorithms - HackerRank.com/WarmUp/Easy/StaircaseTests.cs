@@ -1,10 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CodeChallenges.Algorithms___HackerRank.com.WarmUp.Easy;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CodeChallenges.Algorithms___HackerRank.com.WarmUp.Easy.Tests
 {

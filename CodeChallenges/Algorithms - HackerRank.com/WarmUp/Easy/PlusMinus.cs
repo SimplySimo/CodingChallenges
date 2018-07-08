@@ -55,7 +55,7 @@ You must print the following lines:
             Console.WriteLine(Math.Round(zeroCount / bottom, 6));
 
             //included to allow for unitTesting
-            return new double[] { Math.Round(posCount / bottom, 6), Math.Round(negCount / bottom, 6), Math.Round(zeroCount / bottom, 6)};
+            return new[] { Math.Round(posCount / bottom, 6), Math.Round(negCount / bottom, 6), Math.Round(zeroCount / bottom, 6)};
         }
     }
 }

@@ -38,7 +38,7 @@ Print two space-separated long integers denoting the respective minimum and maxi
             long min = arr.Where((item, index) => index != arr.Length - 1).ToArray().Sum(x => (long)x);
 
             Console.WriteLine(min + " " + max);
-            return new long[] { min, max };
+            return new[] { min, max };
 
         }
     }

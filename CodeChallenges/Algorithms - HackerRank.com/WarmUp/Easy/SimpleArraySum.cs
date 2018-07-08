@@ -30,7 +30,7 @@ We print the sum of the array's elements: 1 + 2 + 3 + 4 + 10 + 11 = 31.
 */
     public class SimpleArraySum
     {
-        public static int simpleArraySum(int n, int[] ar)
+        public static int simpleArraySum(int[] ar)
         {
             // Complete this function
             return ar.Sum();

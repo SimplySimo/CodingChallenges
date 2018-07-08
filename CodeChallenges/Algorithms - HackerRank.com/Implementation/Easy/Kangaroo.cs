@@ -29,17 +29,12 @@ Note: The two kangaroos must land at the same location after making the same num
             int dv = v2 - v1;
 
             if (dv == 0)
-            {
                 return "NO";
-            }
-            else if ((dx % dv == 0) && (dx / dv > 0))
+            if (dx % dv == 0 && (dx / dv > 0))
             {
                 return "YES";
             }
-            else
-            {
-                return "NO";
-            }
+            return "NO";
         }
     }
 }

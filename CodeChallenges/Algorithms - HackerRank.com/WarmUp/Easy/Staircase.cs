@@ -50,10 +50,10 @@ The staircase is right-aligned, composed of # symbols and spaces, and has a heig
         //added return type to unit test
         public static List<string> staircase(int n)
         {
-            List<string> results = new List<string>();
-            string line = "";
-            for (int i = 0; i < n; i++) {
-                line = new String('#', i + 1).PadLeft(n, ' ');
+            var results = new List<string>();
+            for (int i = 0; i < n; i++)
+            {
+                var line = new String('#', i + 1).PadLeft(n, ' ');
                 Console.WriteLine(line);
                 results.Add(line);
             }

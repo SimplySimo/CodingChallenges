@@ -48,11 +48,17 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms - HackerRank.com\Implementation\Easy\BreakingTheRecordsTests.cs" />
     <Compile Include="Algorithms - HackerRank.com\Implementation\Easy\GradingStudentsTests.cs" />
     <Compile Include="Algorithms - HackerRank.com\Implementation\Easy\KangarooTests.cs" />
+    <Compile Include="Algorithms - HackerRank.com\Implementation\Easy\MigratoryBirdsTests.cs" />
+    <Compile Include="Algorithms - HackerRank.com\Implementation\Medium\EncryptionTests.cs" />
+    <Compile Include="Algorithms - HackerRank.com\Strings\Easy\CamelCaseTests.cs" />
+    <Compile Include="Algorithms - HackerRank.com\Strings\Easy\StrongPasswordTests.cs" />
     <Compile Include="Algorithms - HackerRank.com\WarmUp\Easy\AVeryBigSumTests.cs" />
     <Compile Include="Algorithms - HackerRank.com\WarmUp\Easy\BirthdayCakeCandlesTests.cs" />
     <Compile Include="Algorithms - HackerRank.com\WarmUp\Easy\CompareTheTriplesTests.cs" />
+    <Compile Include="Algorithms - HackerRank.com\WarmUp\Easy\DiagonalDifferenceTests.cs" />
     <Compile Include="Algorithms - HackerRank.com\WarmUp\Easy\MiniMaxSumTests.cs" />
     <Compile Include="Algorithms - HackerRank.com\WarmUp\Easy\PlusMinusTests.cs" />
     <Compile Include="Algorithms - HackerRank.com\WarmUp\Easy\SimpleArraySumTests.cs" />
@@ -60,6 +66,7 @@
     <Compile Include="Algorithms - HackerRank.com\WarmUp\Easy\TimeConversionTests.cs" />
     <Compile Include="Properties\SimpleArraySum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomChallengs\DecimalToFractionsTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
